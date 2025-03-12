@@ -1,0 +1,36 @@
+
+body{
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #222;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navitem {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navitem:hover {
+    color: #00C9A7;
+}
